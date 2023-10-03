@@ -1,0 +1,73 @@
+.logins{
+    display: flex;
+    justify-content: center;
+    margin-left: 18%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* justify-content: space-between; */
+    width: 30%;
+    /* background-color: rgb(224, 239, 194); */
+    background-color: rgba(79, 82, 79, 0.4);   
+    /* background-color: rgba(187, 203, 181, 0.8); */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    /* border-radius: 2%; */
+    .heading{
+        /* color: rgb(1, 64, 1); */
+        color:white;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        width: 20vw;
+        border-radius: 0%;
+        .text{
+            margin: 2%;
+            font-size: large;
+        }
+        #button{
+            margin-left: 2%;
+            margin-top: 2%;
+            width:5vw;
+            height: 5vh;
+            border: 0;
+            color: white;
+            font-size:medium;
+            /* font-weight: bold; */
+            background-color: rgb(2, 53, 2);
+        }
+    }
+    .farmers{
+        padding-left:8%;
+        padding-right: 10%;
+    }
+}
+.slinks{
+    /* color: rgb(1, 64, 1); */
+    color: #0e3b02;
+}
+.login-text{
+    color: black;
+}
+/* Style for input boxes */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* Background color */
+    font-size: 16px; /* Font size */
+}
+
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border: 2px solid #4CAF50; 
+    outline: none;
+}
+input[type="text"]:hover,
+input[type="password"]:hover {
+    background-color: #e0e0e0; 
+}

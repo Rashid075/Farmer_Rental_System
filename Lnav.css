@@ -1,0 +1,13 @@
+.loan{
+    background-color: #e1f0c4;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.nav-link{
+    padding-top: 30px;
+    color: rgb(4,108,4) 
+}

@@ -1,0 +1,32 @@
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    margin: 2%;
+    padding: 1%; 
+    /* background-color: rgb(224, 239, 194); */
+    /* background-color: rgba(187, 203, 181, 0.8); */
+    background-color: rgba(79, 82, 79, 0.4);  
+    color:white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.aboutUs-section{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    /* justify-content: space-between; */
+    .mission,.vision{
+        max-width: 25vw;
+        padding: 0 3% 0 3%;
+    }
+    .ABsubheading{
+        justify-content: center;
+    }
+}
+.offers{
+    max-width: 40vw;
+}
+.about-img{
+    height: 20vw;
+}

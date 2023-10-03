@@ -1,0 +1,50 @@
+* { 
+    margin: 0;
+     padding: 0; 
+}
+
+.overlay {
+    position: absolute;
+    top: 19%;
+    left: 10%;
+    width: 50%;
+    /* text-shadow: 1px 1px ; */
+    /* height: 100%; */
+    /* background-color: rgba(34, 139, 34, 0.5); */
+    /* z-index: 1; 
+    z-index: 2;  */
+    /* text-align: center; */
+    color: rgb(1, 107, 1);
+    padding: 50px 0; 
+    font-size: larger; 
+    font-weight: bold;
+    display: flex;
+    
+    h1{
+        
+        font-size: x-large;
+        color: rgb(3, 53, 3);
+    }
+}
+.heroHead{
+    margin-bottom: 6%;
+}
+.overlay-text{
+    text-align: justify;
+    min-width: 30vw;
+    flex: 1;
+    padding: 20px; 
+}
+.hero{
+    display: flex;
+    align-items: center;
+  justify-content: space-between; 
+}
+.image-container{
+    flex: 1; 
+    text-align: center;
+    margin-left: 100px;
+}
+.img{
+    height: 85vh;
+}

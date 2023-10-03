@@ -1,0 +1,18 @@
+.form{
+    background-image: url('https://wallpaper-house.com/data/out/8/wallpaper2you_250304.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.farm-loan{
+    display: block;
+    margin: auto;
+}
+.btn{
+    margin-left: 150px;
+    width:40%;
+    margin-bottom: 10px;
+}
+.heading{
+    text-align: center;
+}

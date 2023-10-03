@@ -1,0 +1,38 @@
+.navBar{
+    padding:0%;
+    margin: 0%;
+    background-color: rgb(224, 239, 194);
+     /* background-color: rgb(240, 240, 229); */
+    /* background-color: rgba(187, 203, 181, 0.8); */
+     /*background-color: #96d1ad;*/ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    color: rgb(4, 88, 4);
+    font-size: large;
+    font-weight:bold;
+    text-decoration: none;
+    padding: 0 4% 0 4%;
+    display: flex;
+    
+    /* margin-left:2%; */
+}
+.custom-navbar {
+    background-color: #e1f0c4; 
+    display: flex;
+    justify-content: space-between; 
+  }
+.custom-navbar .navbar-nav {
+display: flex;
+justify-content: space-between;
+align-items: center; 
+} 
+.logo{
+    height: 15vh;
+}
+.sections{
+    display: flex;
+    min-width: 40vw;
+}
